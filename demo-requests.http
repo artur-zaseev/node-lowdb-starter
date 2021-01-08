@@ -1,0 +1,15 @@
+### https://github.com/Huachao/vscode-restclient
+
+### Variables
+@host = http://localhost:3000
+
+### Get users
+{{host}}/users
+
+### Add new user
+POST {{host}}/users
+content-type: application/json
+
+{
+  "name": "Petr"
+}
